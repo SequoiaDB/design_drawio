@@ -1,0 +1,342 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.16">
+  <diagram name="第 1 页" id="33RwBWYMAd6HMOjl40dz">
+    <mxGraphModel dx="2195" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vnxng5hNODD7DABt4-ip-92" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9772a_2530_48g_poeplus_switch;container=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="199.25" width="65" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-93" value="万兆交换机" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="54.5" y="189" width="80.5" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-94" value="世纪主中心" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="182.25" y="149.5" width="80.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-95" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="82" y="92.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-96" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="92.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-97" value="主节点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="90" width="80.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-98" value="备节点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="187" y="90" width="80.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-99" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="90" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-100" value="协调节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="300" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-101" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="383.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-102" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="420" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-103" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="500" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="82" y="240" />
+              <mxPoint x="82" y="230" />
+              <mxPoint x="350" y="230" />
+              <mxPoint x="350" y="240" />
+            </Array>
+            <mxPoint x="87.25" y="240" as="sourcePoint" />
+            <mxPoint x="350" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-105" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="222" y="240" as="sourcePoint" />
+            <mxPoint x="221.6127819548874" y="214.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vnxng5hNODD7DABt4-ip-107" target="Vnxng5hNODD7DABt4-ip-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="360" />
+              <mxPoint x="85" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-107" value="mysql实例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="250" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vnxng5hNODD7DABt4-ip-110" target="Vnxng5hNODD7DABt4-ip-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vnxng5hNODD7DABt4-ip-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-110" value="编目节点(主)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="347.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-111" value="&amp;lt;192.168.6.207&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-113" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="45" y="460" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-114" value="wdsdb1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-115" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="240" width="90" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-116" value="协调节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="300" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-117" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-118" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="182.25" y="383.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-119" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="500" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vnxng5hNODD7DABt4-ip-121" target="Vnxng5hNODD7DABt4-ip-122">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="223" y="320" />
+              <mxPoint x="223" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-121" value="mysql实例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="250" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-122" value="编目节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="347.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-124" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="460" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-125" value="wdsdb2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-126" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="90" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-127" value="协调节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="300" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-128" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="500" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-129" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="420" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-130" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="383.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vnxng5hNODD7DABt4-ip-132" target="Vnxng5hNODD7DABt4-ip-133">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="360" />
+              <mxPoint x="355" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-132" value="mysql实例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="250" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-133" value="编目节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="347.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-135" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="315" y="460" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-136" value="wdsdb3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-137" value="&amp;lt;192.168.6.209&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="530" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-138" value="&amp;lt;192.168.6.208&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="530" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-139" value="group1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#36393d;dashed=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="380" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-140" value="group2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#36393d;dashed=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-141" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#36393d;dashed=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="460" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-142" value="group10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#36393d;dashed=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-143" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9772a_2530_48g_poeplus_switch;container=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="689.75" width="65" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-144" value="万兆交换机" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="34.5" y="679.5" width="80.5" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-145" value="世纪主中心" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="162.25" y="640" width="80.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-146" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="730.5" width="90" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-147" value="协调节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="780" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-148" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="874" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-149" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="910.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-150" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="990.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="62" y="730.5" />
+              <mxPoint x="62" y="720.5" />
+              <mxPoint x="330" y="720.5" />
+              <mxPoint x="330" y="730.5" />
+            </Array>
+            <mxPoint x="67.25" y="730.5" as="sourcePoint" />
+            <mxPoint x="330" y="730.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-152" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="202" y="730.5" as="sourcePoint" />
+            <mxPoint x="201.6127819548874" y="704.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vnxng5hNODD7DABt4-ip-154" target="Vnxng5hNODD7DABt4-ip-156">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="850.5" />
+              <mxPoint x="65" y="850.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-154" value="mysql实例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="740.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vnxng5hNODD7DABt4-ip-156" target="Vnxng5hNODD7DABt4-ip-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-156" value="编目节点(主)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="826.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-157" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="25" y="950.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-158" value="wdsdb4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1020.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-159" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="730.5" width="90" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-160" value="协调节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="780" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-161" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="910.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-162" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="162.25" y="874" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-163" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="990.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vnxng5hNODD7DABt4-ip-165" target="Vnxng5hNODD7DABt4-ip-166">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="202.5" y="850.5" />
+              <mxPoint x="202.5" y="850.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-165" value="mysql实例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="740.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-166" value="编目节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="826.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-167" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="950.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-168" value="wdsdb5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="1020.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-169" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="730.5" width="90" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-170" value="协调节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="780" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-171" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="990.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-172" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="910.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-173" value="数据节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="874" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-174" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vnxng5hNODD7DABt4-ip-175" target="Vnxng5hNODD7DABt4-ip-176">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="850.5" />
+              <mxPoint x="335" y="850.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-175" value="mysql实例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="740.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-176" value="编目节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;container=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="826.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-177" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#9673a6;container=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="295" y="950.5" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-178" value="wdsdb6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1020.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-179" value="group11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#36393d;dashed=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="874" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-180" value="group12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#36393d;dashed=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="910.5" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-181" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#36393d;dashed=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="950.5" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-182" value="group20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#36393d;dashed=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="990.5" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-183" value="mysql实例组" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#36393d;dashed=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-185" value="&amp;lt;192.168.6.237&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1020.5" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-186" value="&amp;lt;192.168.6.238&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="157.25" y="1020.5" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnxng5hNODD7DABt4-ip-187" value="&amp;lt;192.168.6.239&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1020.5" width="90" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
